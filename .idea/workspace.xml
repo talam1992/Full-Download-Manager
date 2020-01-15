@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3999f58-ad8b-4cc7-a2a4-de59a4620580" name="Default Changelist" comment="Made main.ui is running from index.py">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="f3999f58-ad8b-4cc7-a2a4-de59a4620580" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579007105796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made main.ui is running from index.py">
+      <created>1579008611103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579008611103</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,10 +133,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579006201472" />
-    <state x="418" y="8" key="CommitChangelistDialog2" timestamp="1579008439185">
+    <state x="418" y="8" key="CommitChangelistDialog2" timestamp="1579008609703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579008439185" />
+    <state x="418" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579008609703" />
     <state x="141" y="69" key="DiffContextDialog" timestamp="1579008420001">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -145,22 +153,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="119" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1579006534334" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1579007399956">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1579053876442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579007399956" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1579007399956">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579053876442" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1579053876442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579007399956" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1579007399956">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579053876442" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1579053876442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579007399956" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1579007399956">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579053876442" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1579053876442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579007399956" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579053876442" />
     <state x="525" y="124" key="RollbackChangesDialog" timestamp="1579007170045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -173,10 +181,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579007895855" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579006944669">
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579008641916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1579006944669" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1579008641916" />
     <state x="599" y="204" key="svn.repositoryBrowser" timestamp="1579006811522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
