@@ -35,6 +35,7 @@ class MainApp(QMainWindow , ui):
         if totalsize > 0:
             download_percentage = read_data * 100 / totalsize
             self.progressBar.setValue(download_percentage)
+            QApplication.processEvents()
 
     def Handle_Browse(self):
         ##  enable browsing to our os, pick save loaction
@@ -49,7 +50,20 @@ class MainApp(QMainWindow , ui):
         download_url = self.lineEdit.text()
         save_location = self.lineEdit_2.text()
 
-        urllib.request.urlretrieve(download_url, save_location, self.Handle_progress)
+        if download_url == '' or save_location == '':
+            QMessageBox.warning(self, "Data Error", "Prove a valid URL or save location")
+        else:
+            try:
+                urllib.request.urlretrieve(download_url, save_location, self.Handle_progress)
+            except Exception:
+                QMessageBox.warning (self, "Download Error", "Prove a valid URL or save location")
+                return
+
+        QMessageBox.information(self, "Download Completed", "The Download Completed Successfully")
+
+        self.lineEdit.setText('')
+        self.lineEdit_2.setText('')
+        self.progressBar.setValue(0)
 
 
 
